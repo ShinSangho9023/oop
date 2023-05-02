@@ -25,7 +25,9 @@ public class ExTest2 {
 //		 try 
 //		{
 //			ch = System.in.read();
-//		} catch (IOException e) {
+//		} 
+//		 catch (IOException e) 
+//		 {
 //			e.printStackTrace();// 특별히 해결할 문제가 아니여도 이걸 넣어줘야 오류 추적이 가능함
 //		}
 		 

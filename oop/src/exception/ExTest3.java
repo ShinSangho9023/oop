@@ -19,12 +19,13 @@ public class ExTest3
 			{
 				num[i] = sc.nextInt();
 			} 
+			
 			catch (InputMismatchException e) // 무슨 예외인지 모를 떈 일부러 예외를 내보고 보고 써도 됨.
-			{
+			{  								// 혹은 상위 타입의 예외처리로 모든 걸 다 받아도 됨.
 				// 버퍼를 비우고 i번째를 다시
 				System.out.println("숫자를 제대로 입력하세요");
-				sc.nextLine();
-				i--;
+				sc.nextLine();//한 줄을 한꺼번에 읽기 때문에 전부 읽어가서 버퍼가 비어짐
+				i--; 
 			}
 		}
 		
