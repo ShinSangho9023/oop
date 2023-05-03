@@ -35,6 +35,19 @@ public class IOTest4
 			else break;
 		}
 		
+		//파일 경로 입력받기
+		//입력받은 문자열로 file 객체생성
+		//파일이 실제로 있는지 확인
+		// 없으면 계속, 있으면 반복종료
+		
+		
+		
+		
+		// 파일 입력 스트림 생성
+		// 반복문으로 내용 읽어서 출력
+		// 파일 닫기
+		
+		
 		File b = new File(file);
 		
 		System.out.println();
