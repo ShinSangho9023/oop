@@ -16,7 +16,7 @@ public class Test1
 		String fileName;
 		File file, tempFile;
 		String text = null;
-		String text1 = null;
+		String text1 = "";
 		int line = 0;
 		ObjectOutputStream save;
 		
@@ -25,11 +25,13 @@ public class Test1
 		{
 			System.out.print(++line + ":");			
 			text = sc.nextLine();
+			System.out.println(text);
+			
 			if (text.length() == 0) 
 			{
 				break;
 			}
-			text1 += text + "\n";
+			// 끝부분부터 찾는 메서드로 찾고 삭제?
 		}
 		
 		System.out.print("저장하시겠습니까? (y/n)");
@@ -57,7 +59,7 @@ public class Test1
 			break;
 		}
 		
-		
+		System.out.println(text1);
 		
 		
 	}
